@@ -1,0 +1,3 @@
+const menu=document.querySelector('.menu'),links=document.querySelector('.links');if(menu)menu.onclick=()=>links.classList.toggle('open');
+const filters=document.querySelectorAll('[data-filter]'),arts=document.querySelectorAll('.art');filters.forEach(b=>b.onclick=()=>{filters.forEach(x=>x.classList.remove('on'));b.classList.add('on');arts.forEach(a=>a.style.display=(b.dataset.filter==='all'||a.dataset.cat===b.dataset.filter)?'block':'none')});
+const lb=document.querySelector('.lightbox');document.querySelectorAll('.art img').forEach(i=>i.onclick=()=>{if(lb){lb.querySelector('img').src=i.src;lb.classList.add('open')}});if(lb){lb.onclick=e=>{if(e.target===lb||e.target.classList.contains('close'))lb.classList.remove('open')}}
