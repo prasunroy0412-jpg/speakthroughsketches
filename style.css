@@ -10,3 +10,7 @@
 /* Compact, artwork-first header: logo carries the brand on phones */
 @media(min-width:761px){.brand span{font-size:18px;letter-spacing:.01em}.brand img{width:46px;height:46px}.navin{height:74px}}
 @media(max-width:760px){.brand{flex-shrink:0}.brand span{display:none}.brand img{width:42px;height:42px}.nav-social{margin-left:auto}.navin{justify-content:space-between}}
+
+/* Featured Artists landing and submission invitation */
+.featured-artists-intro{max-width:900px}.featured-artists-intro h2,.showcase-layout h2{margin:12px 0 24px}.featured-artists-intro p,.showcase-layout p{font-size:17px;line-height:1.85}.showcase-layout{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(260px,.75fr);gap:70px;align-items:start}.submission-card{background:var(--panel);border:1px solid var(--line);padding:35px}.submission-card h3{font:32px/1.2 Georgia,serif}.submission-card p{font-size:15px}.submission-note{font-size:13px!important;margin-top:20px}.featured-artists-home{max-width:850px}.featured-artists-home p{max-width:680px;font-size:18px}.showcase-section{scroll-margin-top:95px}@media(max-width:760px){.showcase-layout{grid-template-columns:1fr;gap:35px}.featured-artists-intro p,.showcase-layout p{font-size:16px}}
+@media(min-width:1101px) and (max-width:1370px){.links{gap:15px}.brand span{font-size:16px}.nav-social{gap:2px}}
