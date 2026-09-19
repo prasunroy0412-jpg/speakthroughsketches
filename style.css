@@ -6,3 +6,7 @@
 @media(max-width:760px){.links{top:70px}.navin{gap:8px}.nav-social{gap:0}.nav-social a{width:30px;height:34px}.nav-social svg{width:17px;height:17px}}
 @media(max-width:480px){.brand{gap:7px}.brand span{font-size:14px}.brand img{width:38px;height:38px}.nav-social a{width:27px}.nav-social svg{width:16px;height:16px}.menu{padding:7px 8px;font-size:12px}}
 @media(max-width:365px){.brand span{font-size:12px}.nav-social a{width:25px}}
+
+/* Compact, artwork-first header: logo carries the brand on phones */
+@media(min-width:761px){.brand span{font-size:18px;letter-spacing:.01em}.brand img{width:46px;height:46px}.navin{height:74px}}
+@media(max-width:760px){.brand{flex-shrink:0}.brand span{display:none}.brand img{width:42px;height:42px}.nav-social{margin-left:auto}.navin{justify-content:space-between}}
